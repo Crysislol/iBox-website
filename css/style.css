@@ -1,0 +1,271 @@
+/* Global */
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li.active {
+  background-color: rgba(0, 0, 0, 0.3) !important;
+}
+
+.dropdown-content li>a {
+  color: #2196F3 !important;
+  text-align: center;
+}
+
+.dropdown-content li.active>a {
+  color: #FFF !important;
+  text-align: center;
+}
+
+.logo {
+  width: 50%;
+}
+
+.idim {
+  display: block !important;
+  width: 190px;
+  margin: 20px auto 0 auto;
+}
+
+.line {
+  max-width: 100px;
+  border: 0;
+  border-top: 3px solid #00a8e6;
+  margin: 0 auto 20px auto;
+}
+
+.text {
+  font-weight: 500;
+}
+
+.change {
+  text-transform: uppercase;
+}
+
+.footer p {
+  letter-spacing: 2px;
+  font-size: 13px;
+  margin: 0;
+  padding: 50px 0;
+}
+
+.hide {
+  visibility: hidden;
+}
+
+.visible {
+  visibility: visible;
+}
+
+/* Index.html */
+
+.about {
+  padding: 50px 0;
+}
+
+.products {
+  padding: 50px 0;
+}
+
+.map {
+  padding: 50px 0;
+}
+
+.controler {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.net-relays {
+  padding: 20px 0;
+}
+
+.carousel {
+  height: 600px !important;
+}
+
+.carousel-item>h2 {
+  letter-spacing: 4px;
+  font-size: 40px !important;
+  font-weight: 300 !important;
+  background-color: #424242;
+  display: inline-block;
+  margin: 10px 0;
+  padding: 15px;
+  color: #FFF;
+}
+
+.carousel-item>p {
+  font-size: 20px !important;
+  letter-spacing: 2px;
+}
+
+.carousel-item>.row>.col>h2 {
+  letter-spacing: 4px;
+  font-size: 40px !important;
+  font-weight: 300 !important;
+  background-color: #424242;
+  display: inline-block;
+  margin: 10px 0;
+  padding: 15px;
+  color: #FFF;
+}
+
+.carousel-item>.row>.col>p {
+  font-size: 20px !important;
+  letter-spacing: 2px;
+}
+
+.carousel-item>img {
+  width: 25% !important;
+}
+
+.carousel-item>.row>.col>img {
+  width: 50% !important;
+}
+
+.carousel .indicators .indicator-item {
+  background-color: #9ad2ff !important;
+  box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.14), 0 1px 10px 0 rgba(0, 0, 0, 0.12), 0 2px 4px -1px rgba(0, 0, 0, 0.3);
+}
+
+.carousel .indicators .indicator-item.active {
+  background-color: #2196F3 !important;
+}
+
+.btn.disabled {
+  pointer-events: all !important;
+}
+
+.panel {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.light {
+  width: 100%;
+  border-radius: 10px;
+}
+
+/* iDimming.html */
+
+.techlogo {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 10px;
+  width: 20%;
+}
+
+.idimming {
+  margin: 10%;
+  width: 75%;
+}
+
+.compatible {
+  padding: 20px 0;
+}
+
+.idimming_about {
+  padding: 50px 0;
+}
+
+/* Net-Relays.html */
+
+.net-relays2 {
+  width: 65%;
+  margin: 10%;
+}
+
+.netrelay_tech {
+  width: 50%;
+}
+
+/* About.html */
+
+.projector_wrap {
+  height: 500px;
+  background-position: center;
+  background-image: url('../img/projector.jpg');
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.projector_wrap > .row > .col {
+  margin-top: 10rem;
+}
+
+.projector_wrap > .row > .col > h3,h5 {
+  position: relative;
+
+}
+
+.projector_wrap::before {
+  content: '';
+  position: absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.about_text {
+  padding:2em 0;
+}
+
+/* Suport.html */
+
+.about_suport {
+  margin-top: 50px;
+}
+
+
+.tabs-content {
+  margin: 30px 0;
+}
+
+ul.warranty > li {
+  list-style-type: disc !important;
+}
+
+ul.void > li {
+  list-style-type: disc !important;
+}
+
+ul.certificate > li {
+  list-style-type: disc !important;
+}
+
+#warranty, #certificate {
+  width:auto;
+  height:auto;
+  padding: 0 30px;
+  overflow-y: hidden;
+}
+
+/* Contact.html */
+
+.contact {
+  padding:50px 0;
+}
+
+.contact_img {
+  width:100%;
+}
+
+.contact_img_container {
+  position: relative;
+}
+
+.contact_img_container::before {
+  content: '';
+  position: absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:99%;
+  background-color: rgba(0, 0, 0, 0.2);
+}
