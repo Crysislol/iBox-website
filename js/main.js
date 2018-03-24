@@ -71,7 +71,9 @@ $(function() {
 
   $('ul.tabs').tabs();
 
-  AOS.init();
+  AOS.init({
+    disable:'mobile'
+  });
 
 
   function resize(){
