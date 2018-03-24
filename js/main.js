@@ -72,7 +72,7 @@ $(function() {
   $('ul.tabs').tabs();
 
   AOS.init({
-    disable: 'mobile'
+    disable: window.innerWidth < 600
   });
 
 
