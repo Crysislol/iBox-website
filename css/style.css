@@ -78,12 +78,38 @@ nav ul li.active {
   border-radius: 10px;
 }
 
-.net-relays {
-  padding: 20px 0;
+@media only screen and (min-width:1200px) {
+  .net-relays {
+    width: 25%;
+  }
 }
 
 .carousel {
-  height: 600px !important;
+  height: 700px !important;
+}
+
+@media only screen and (max-width:700px) {
+  .carousel {
+    height: 500px !important;
+  }
+  .img_container>img {
+    width: 50% !important;
+  }
+  .net-relays {
+    width: 35%;
+  }
+}
+
+@media only screen and (max-width:450px) {
+  .carousel {
+    height: 400px !important;
+  }
+  .img_container>img {
+    width: 50% !important;
+  }
+  .net-relays {
+    width: 35%;
+  }
 }
 
 .carousel-item>h2 {
@@ -116,14 +142,6 @@ nav ul li.active {
 .carousel-item>.row>.col>p {
   font-size: 20px !important;
   letter-spacing: 2px;
-}
-
-.carousel-item>img {
-  width: 25% !important;
-}
-
-.carousel-item>.row>.col>img {
-  width: 50% !important;
 }
 
 .carousel .indicators .indicator-item {
@@ -193,27 +211,26 @@ nav ul li.active {
   position: relative;
 }
 
-.projector_wrap > .row > .col {
+.projector_wrap>.row>.col {
   margin-top: 10rem;
 }
 
-.projector_wrap > .row > .col > h3,h5 {
+.projector_wrap>.row>.col>h3, h5 {
   position: relative;
-
 }
 
 .projector_wrap::before {
   content: '';
   position: absolute;
-  top:0;
-  left:0;
-  width:100%;
-  height:100%;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
   background-color: rgba(0, 0, 0, 0.3);
 }
 
 .about_text {
-  padding:2em 0;
+  padding: 2em 0;
 }
 
 /* Suport.html */
@@ -222,26 +239,25 @@ nav ul li.active {
   margin-top: 50px;
 }
 
-
 .tabs-content {
   margin: 30px 0;
 }
 
-ul.warranty > li {
+ul.warranty>li {
   list-style-type: disc !important;
 }
 
-ul.void > li {
+ul.void>li {
   list-style-type: disc !important;
 }
 
-ul.certificate > li {
+ul.certificate>li {
   list-style-type: disc !important;
 }
 
 #warranty, #certificate {
-  width:auto;
-  height:auto;
+  width: auto;
+  height: auto;
   padding: 0 30px;
   overflow-y: hidden;
 }
@@ -249,11 +265,11 @@ ul.certificate > li {
 /* Contact.html */
 
 .contact {
-  padding:50px 0;
+  padding: 50px 0;
 }
 
 .contact_img {
-  width:100%;
+  width: 100%;
 }
 
 .contact_img_container {
@@ -263,9 +279,9 @@ ul.certificate > li {
 .contact_img_container::before {
   content: '';
   position: absolute;
-  top:0;
-  left:0;
-  width:100%;
-  height:99%;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 99%;
   background-color: rgba(0, 0, 0, 0.2);
 }
